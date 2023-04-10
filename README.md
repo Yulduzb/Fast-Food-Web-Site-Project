@@ -6,4 +6,5 @@ This web site is designed for ordering food online.
  HTML CSS and Javascript
 
  <h3>Screenshot Website</h3>
- ![](screen.gif)
+
+![](screensh.gif)
