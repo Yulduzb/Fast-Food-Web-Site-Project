@@ -239,7 +239,7 @@ right: -100%;
 /*!home start*/
 .home {
     min-height: 100vh;
-    background: url(../images/home.jpg)
+    background: url(../images/yen3.jpg)
     no-repeat;
     background-size: cover;
     background-position: center;
@@ -253,27 +253,32 @@ max-width: 60rem;
 
 }
 .home .content h3{
-font-size: 6rem;
+font-size:5rem;
 color: #fff;
 
 }
 
+ .content h3 span{
+    color:var(--black-color);
+}
+
 .home .content p{
-    font-size: 2rem;
+    visibility: hidden;
+    /*font-size: 2rem;
     font-weight: 300;
     line-height: 1.8;
     padding: 1rem 0;
-    color: #ccc;
+    color: #ccc;*/
 }
 
-.btn{
-    margin-top: 1rem;
+#or{
+    margin-top: rem;
     display: inline-block;
     padding: 2rem 3.75rem;
     border-radius: 30rem;
-    font-size: 1.7rem;
-    background-color: var(--black-color);
-    color: #fff;
+    font-size: 1.5rem;
+    background-color: #fff;
+    color: var(--black-color);
     cursor: pointer;
   
 }
@@ -755,6 +760,13 @@ color: var(--main-color);
     html{
         font-size: 50%;
   
+}
+
+.content h3{
+    visibility: hidden;
+}
+.contact #or{
+
 }
 }
 /*! responsive end ---*/
